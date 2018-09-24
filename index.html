@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="imagetoolbar" content="no">
+		<meta name="msthemecompatible" content="no">
+		<meta name="cleartype" content="on">
+		<meta name="HandheldFriendly" content="True">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="format-detection" content="address=no">
+		<meta name="google" value="notranslate">
+		<meta name="theme-color" content="#ffffff">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<link sizes="57x57" href="/apple-touch-icon-57x57.png" rel="apple-touch-icon">
+		<link sizes="114x114" href="/apple-touch-icon-114x114.png" rel="apple-touch-icon">
+		<link sizes="72x72" href="/apple-touch-icon-72x72.png" rel="apple-touch-icon">
+		<link sizes="144x144" href="/apple-touch-icon-144x144.png" rel="apple-touch-icon">
+		<link sizes="60x60" href="/apple-touch-icon-60x60.png" rel="apple-touch-icon">
+		<link sizes="120x120" href="/apple-touch-icon-120x120.png" rel="apple-touch-icon">
+		<link sizes="76x76" href="/apple-touch-icon-76x76.png" rel="apple-touch-icon">
+		<link sizes="152x152" href="/apple-touch-icon-152x152.png" rel="apple-touch-icon">
+		<link sizes="180x180" href="/apple-touch-icon-180x180.png" rel="apple-touch-icon">
+		<link sizes="192x192" href="/favicon-192x192.png" rel="icon" type="image/png">
+		<link sizes="160x160" href="/favicon-160x160.png" rel="icon" type="image/png">
+		<link sizes="96x96" href="/favicon-96x96.png" rel="icon" type="image/png">
+		<link sizes="16x16" href="/favicon-16x16.png" rel="icon" type="image/png">
+		<link sizes="32x32" href="/favicon-32x32.png" rel="icon" type="image/png">
+		<link rel="manifest" href="/manifest.json">
+		<meta name="application-name" content="">
+		<meta name="msapplication-tooltip" content="">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="/mstile-large.png">
+		<meta name="msapplication-starturl" content="https://csssr.github.io/csssr-project-template/">
+		<meta name="msapplication-tap-highlight" content="no">
+		<meta name="msapplication-square70x70logo" content="/mstile-small.png">
+		<meta name="msapplication-square150x150logo" content="/mstile-medium.png">
+		<meta name="msapplication-wide310x150logo" content="/mstile-wide.png">
+		<meta name="msapplication-square310x310logo" content="/mstile-large.png">
+		<title>My bootstrap</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<link href="./assets/styles/app.min.css" rel="stylesheet">
+	</head>
+
+	<body class="page">
+		<div class="page__wrapper">
+			<div class="header">
+				<div class="header__container-info d-xs-none d-lg-block">
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-12">
+								<div class="header-info d-xs-flex justify-content-xs-between align-items-xs-center">
+									<a href="/" class="logotip mx-xs-2 mx-lg-0 d-xs-flex d-lg-block align-items-xs-center justify-content-xs-start">
+										<span>rk4x4shop.ru</span>
+									</a>
+									<div class="contacts h-100 d-xs-flex justify-content-xs-between">
+										<div class="contacts-container contacts-container_phones d-xs-flex mr-xl-4 mr-lg-3">
+											<div class="contacts-container__icon contacts-container__icon_phone"></div>
+											<div class="contacts-container__phones d-xs-flex flex-xs-column justify-content-xs-between">
+												<a href="tel:+74957275300">+7 (495)
+													<span>727 - 53 - 00</span>
+												</a>
+												<a href="tel:+74957275312">+7 (495)
+													<span>727 - 53 - 12</span>
+												</a>
+											</div>
+										</div>
+										<div class="contacts-container contacts-container_adreses d-xs-flex">
+											<div class="contacts-container__icon contacts-container__icon_location"></div>
+											<div class="contacts-container__adreses d-xs-flex flex-xs-column justify-content-xs-between">
+												<p>Пешком: ул. 4-я Магистральная, д. 3</p>
+												<p>На автомобиле: ул. 5-я Магистральная, д. 15</p>
+											</div>
+										</div>
+									</div>
+									<a href="/basket.html" class="basket h-100 d-xs-flex justify-content-xs-between align-items-xs-center">Корзина пуста
+										<span class="ml-xl-6 ml-lg-4 d-xs-flex justify-content-xs-center align-items-xs-center">0</span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="header__container-nav">
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-12">
+								<div class="header-nav">
+									<div class="header-nav__content d-xs-block d-lg-flex justify-content-xs-between align-items-xs-center">
+										<ul class="nav js-nav d-lg-flex">
+											<li data-id="0" class="nav__item nav__item_sub-m p-xl-2">
+												<a href="javascript:;">Каталог товаров</a>
+												<div class="container container_sub-nav js-sub-nav">
+													<div class="row">
+														<div class="col-xs-12">
+															<div class="sub-nav">
+																<div class="row">
+																	<div class="col-xs-12">
+																		<div class="sub-nav-prev d-lg-none js-sub-nav-prev">Каталог товаров</div>
+																		<ul class="sub-nav-line d-xs-block d-lg-flex align-self-xs-stretch">
+																			<li class="sub-nav-line__item">
+																				<a href="/tyuning-niva.html">Тюнинг Нива</a>
+																			</li>
+																			<li class="sub-nav-line__item">
+																				<a href="/tyuning-yaz.html">Тюнинг УАЗ</a>
+																			</li>
+																			<li class="sub-nav-line__item">
+																				<a href="/lebedra.html">Лебедка</a>
+																			</li>
+																			<li class="sub-nav-line__item">
+																				<a href="/podveska.html">Подвеска</a>
+																			</li>
+																			<li class="sub-nav-line__item">
+																				<a href="/shini.html">Шины</a>
+																			</li>
+																			<li class="sub-nav-line__item">
+																				<a href="/diski.html">Диски</a>
+																			</li>
+																		</ul>
+																	</div>
+																</div>
+																<div class="row">
+																	<div class="col-xs-12">
+																		<ul class="sub-nav-list py-xl-4 py-lg-3">
+																			<li class="sub-nav-list__item">
+																				<a href="javascript:;">Сендтраки</a>
+																			</li>
+																			<li class="sub-nav-list__item">
+																				<a href="javascript:;">Распродажа</a>
+																			</li>
+																			<li class="sub-nav-list__item">
+																				<a href="javascript:;">Автохимия</a>
+																			</li>
+																			<li class="sub-nav-list__item">
+																				<a href="javascript:;">Аккумуляторы и аксессуары к ним</a>
+																			</li>
+																			<li class="sub-nav-list__item">
+																				<a href="javascript:;">Багажники экспедиционные, лесенки</a>
+																			</li>
+																			<li class="sub-nav-list__item">
+																				<a href="javascript:;">Бамперы и силовой обвес</a>
+																			</li>
+																			<li class="sub-nav-list__item">
+																				<a href="javascript:;">Блокировки дифференциала</a>
+																			</li>
+																			<li class="sub-nav-list__item">
+																				<a href="javascript:;">Бодилифт</a>
+																			</li>
+																			<li class="sub-nav-list__item">
+																				<a href="javascript:;">Главные пары</a>
+																			</li>
+																			<li class="sub-nav-list__item">
+																				<a href="javascript:;">Диски колёсные и аксессуары</a>
+																			</li>
+																			<li class="sub-nav-list__item">
+																				<a href="javascript:;">Домкраты реечные и аксессуары</a>
+																			</li>
+																			<li class="sub-nav-list__item">
+																				<a href="javascript:;">Защита рулевых тяг, мостов </a>
+																			</li>
+																			<li class="sub-nav-list__item">
+																				<a href="javascript:;">Канистры экспедиционные</a>
+																			</li>
+																			<li class="sub-nav-list__item">
+																				<a href="javascript:;">Компрессоры</a>
+																			</li>
+																			<li class="sub-nav-list__item">
+																				<a href="javascript:;">Консоли потолочные</a>
+																			</li>
+																			<li class="sub-nav-list__item">
+																				<a href="javascript:;">Крепления груза</a>
+																			</li>
+																			<li class="sub-nav-list__item">
+																				<a href="javascript:;">Кунги для пикапов</a>
+																			</li>
+																			<li class="sub-nav-list__item">
+																				<a href="javascript:;">Лебёдки, аксессуары и запчасти</a>
+																			</li>
+																			<li class="sub-nav-list__item">
+																				<a href="javascript:;">Мойки и пылесосы</a>
+																			</li>
+																			<li class="sub-nav-list__item">
+																				<a href="javascript:;">Одежда</a>
+																			</li>
+																			<li class="sub-nav-list__item">
+																				<a href="javascript:;">Рекламные материалы</a>
+																			</li>
+																			<li class="sub-nav-list__item">
+																				<a href="javascript:;">Рулевые тяги и демферы</a>
+																			</li>
+																			<li class="sub-nav-list__item">
+																				<a href="javascript:;">Свет дополнительный</a>
+																			</li>
+																			<li class="sub-nav-list__item">
+																				<a href="javascript:;">Синтетический трос</a>
+																			</li>
+																			<li class="sub-nav-list__item">
+																				<a href="javascript:;">Стропы</a>
+																			</li>
+																			<li class="sub-nav-list__item">
+																				<a href="javascript:;">Сцепления Xtreme Outback</a>
+																			</li>
+																			<li class="sub-nav-list__item">
+																				<a href="javascript:;">Топливные баки</a>
+																			</li>
+																			<li class="sub-nav-list__item">
+																				<a href="javascript:;">Турбосистемы Safari Power</a>
+																			</li>
+																			<li class="sub-nav-list__item">
+																				<a href="javascript:;">Туристическое и экспедиционное </a>
+																			</li>
+																			<li class="sub-nav-list__item">
+																				<a href="javascript:;">Тюнинг квадроциклов</a>
+																			</li>
+																			<li class="sub-nav-list__item">
+																				<a href="javascript:;">Тюнинг УАЗов</a>
+																			</li>
+																			<li class="sub-nav-list__item">
+																				<a href="javascript:;">Усиленные цапфы</a>
+																			</li>
+																			<li class="sub-nav-list__item">
+																				<a href="javascript:;">Фаркопы</a>
+																			</li>
+																			<li class="sub-nav-list__item">
+																				<a href="javascript:;">Хабы колёсные AVM и другие</a>
+																			</li>
+																			<li class="sub-nav-list__item">
+																				<a href="javascript:;">Цепи противоскольжения</a>
+																			</li>
+																			<li class="sub-nav-list__item">
+																				<a href="javascript:;">Шины для внедорожников</a>
+																			</li>
+																			<li class="sub-nav-list__item">
+																				<a href="javascript:;">Шноркели</a>
+																			</li>
+																			<li class="sub-nav-list__item">
+																				<a href="javascript:;">Щётки стеклоочистителя</a>
+																			</li>
+																		</ul>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</li>
+											<li data-id="1" class="nav__item p-xl-2">
+												<a href="about-company.html">О компании</a>
+											</li>
+											<li data-id="2" class="nav__item p-xl-2">
+												<a href="photo-and-video.html">Фото и видео</a>
+											</li>
+											<li data-id="3" class="nav__item p-xl-2">
+												<a href="techrazdel.html">Техраздел</a>
+											</li>
+											<li data-id="4" class="nav__item p-xl-2">
+												<a href="sertificats.html">Сертификаты</a>
+											</li>
+											<li data-id="5" class="nav__item p-xl-2">
+												<a href="otzovi-about-us.html">Отзывы о нас</a>
+											</li>
+										</ul>
+										<form action="/" method="POST" class="search">
+											<input type="text" name="search" placeholder="Поиск по сайту" class="search__input" />
+											<input type="hidden" name="menu-search" />
+											<button type="submit" class="search__button"></button>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="header__container-info-nav d-lg-none">
+					<div class="row no-gutters">
+						<div class="col-content col-md-4 col-xs-6">
+							<a href="/" class="logotip mx-xs-2 mx-lg-0 d-xs-flex d-lg-block align-items-xs-center justify-content-xs-start">
+								<span>rk4x4shop.ru</span>
+							</a>
+						</div>
+						<div class="col-content col-md-8 col-xs-6 pos-st">
+							<div class="top-info d-xs-flex justify-content-xs-end align-items-xs-center">
+								<div class="top-info__icon top-info__icon_phone js-icon-help mr-sm-2 mr-xs-1">
+									<div class="hidden-block js-hidden-block row">
+										<div class="col col-xs-12 col-sm-6">
+											<a href="tel:+74957275300">+7 (495) 727 - 53 - 00</a>
+										</div>
+										<div class="col col-xs-12 col-sm-6">
+											<a href="tel:+74957275312">+7 (495) 727 - 53 - 12</a>
+										</div>
+									</div>
+								</div>
+								<div class="top-info__icon top-info__icon_location js-icon-help mr-sm-2 mr-xs-1">
+									<div class="hidden-block js-hidden-block row">
+										<div class="col col-xs-12 col-sm-6">
+											<p>Пешком: ул. 4-я Магистральная, д. 3</p>
+										</div>
+										<div class="col col-xs-12 col-sm-6">
+											<p>На автомобиле: ул. 5-я Магистральная, д. 15</p>
+										</div>
+									</div>
+								</div>
+								<div class="top-info__icon top-info__icon_basket js-icon-help js-basket-quantity mr-sm-2 mr-xs-1 d-xs-flex align-items-xs-center justify-content-xs-center">1
+									<div class="hidden-block js-hidden-block row">
+										<div class="col col_txt col-xs-12">
+											<p>Ваша карзина пуста</p>
+										</div>
+										<div class="col col_link col-xs-12">
+											<a href="/basket">Перейти в корзину</a>
+										</div>
+									</div>
+								</div>
+								<div class="top-info__icon-menu js-open-menu mr-sm-2 mr-xs-1">
+									<span></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="page-content">
+				<div class="main-slider js-main-slider mb-xs-5">
+					<picture class="main-slider__img js-picture-img">
+						<source srcset="assets/images/slider-one.jpg" media="(min-width: 1024px)" />
+						<source srcset="assets/images/slider-one-mobile.jpg" media="(max-width: 479px)" />
+						<source srcset="assets/images/slider-one-tablet.jpg" media="(max-width: 1023px)" />
+						<img src="assets/images/slider-one.jpg" alt="image-goods" title="" />
+					</picture>
+					<picture class="main-slider__img js-picture-img">
+						<source srcset="assets/images/slider-two.jpg" media="(min-width: 1024px)" />
+						<source srcset="assets/images/slider-two-mobile.jpg" media="(max-width: 479px)" />
+						<source srcset="assets/images/slider-two-tablet.jpg" media="(max-width: 1023px)" />
+						<img src="assets/images/slider-two.jpg" alt="image-goods" title="" />
+					</picture>
+					<picture class="main-slider__img js-picture-img">
+						<source srcset="assets/images/slider-one.jpg" media="(min-width: 1024px)" />
+						<source srcset="assets/images/slider-one-mobile.jpg" media="(max-width: 479px)" />
+						<source srcset="assets/images/slider-one-tablet.jpg" media="(max-width: 1023px)" />
+						<img src="assets/images/slider-one.jpg" alt="image-goods" title="" />
+					</picture>
+					<picture class="main-slider__img js-picture-img">
+						<source srcset="assets/images/slider-two.jpg" media="(min-width: 1024px)" />
+						<source srcset="assets/images/slider-two-mobile.jpg" media="(max-width: 479px)" />
+						<source srcset="assets/images/slider-two-tablet.jpg" media="(max-width: 1023px)" />
+						<img src="assets/images/slider-two.jpg" alt="image-goods" title="" />
+					</picture>
+					<picture class="main-slider__img js-picture-img">
+						<source srcset="assets/images/slider-one.jpg" media="(min-width: 1024px)" />
+						<source srcset="assets/images/slider-one-mobile.jpg" media="(max-width: 479px)" />
+						<source srcset="assets/images/slider-one-tablet.jpg" media="(max-width: 1023px)" />
+						<img src="assets/images/slider-one.jpg" alt="image-goods" title="" />
+					</picture>
+				</div>
+				<div class="section">
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-12">
+								<div class="popular-goods">
+									<h2 class="h2 h2_popular-goods">Популярные товары</h2>
+									<ul class="popular-goods-slider owl-carousel js-popular-goods">
+										<li class="popular-goods-slider__item">
+											<div class="popular-goods-item">
+												<div class="popular-goods-item__img-wrapper">
+													<img src="assets/images/goods/shakl.jpg" alt="" role="presentation" />
+												</div>
+												<div class="popular-goods-item__title-wrapper">
+													<p class="popular-goods-item__goods-title">Шакл &quot;Скоба&quot; 3.2T Runva</p>
+													<p class="popular-goods-item__goods-code">Код: AGR-110H</p>
+												</div>
+												<div class="popular-goods-item__price-wrapper">
+													<p class="popular-goods-item__goods-price">9 580
+														<span>руб.</span>
+													</p>
+													<div class="popular-goods-item__wrapper-button d-xs-flex justify-content-xs-between">
+														<button data-goods-id="31" class="popular-goods-item__buy">
+															<span>В корзину</span>
+														</button>
+														<button class="popular-goods-item__in-basket"></button>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li class="popular-goods-slider__item">
+											<div class="popular-goods-item">
+												<div class="popular-goods-item__img-wrapper">
+													<img src="assets/images/goods/shina.jpg" alt="" role="presentation" />
+												</div>
+												<div class="popular-goods-item__title-wrapper">
+													<p class="popular-goods-item__goods-title">Шина Goodyear LT275/65 R20 </p>
+													<p class="popular-goods-item__goods-code">Код: AGR-110H</p>
+												</div>
+												<div class="popular-goods-item__price-wrapper">
+													<p class="popular-goods-item__goods-price">11 200
+														<span>руб.</span>
+													</p>
+													<div class="popular-goods-item__wrapper-button d-xs-flex justify-content-xs-between">
+														<button data-goods-id="42" class="popular-goods-item__buy">
+															<span>В корзину</span>
+														</button>
+														<button class="popular-goods-item__in-basket"></button>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li class="popular-goods-slider__item">
+											<div class="popular-goods-item">
+												<div class="popular-goods-item__img-wrapper">
+													<img src="assets/images/goods/termomofta.jpg" alt="" role="presentation" />
+												</div>
+												<div class="popular-goods-item__title-wrapper">
+													<p class="popular-goods-item__goods-title">Термомуфта Toyota</p>
+													<p class="popular-goods-item__goods-code">Код: AGR-110H</p>
+												</div>
+												<div class="popular-goods-item__price-wrapper">
+													<p class="popular-goods-item__goods-price">12 390
+														<span>руб.</span>
+													</p>
+													<div class="popular-goods-item__wrapper-button d-xs-flex justify-content-xs-between">
+														<button data-goods-id="54" class="popular-goods-item__buy">
+															<span>В корзину</span>
+														</button>
+														<button class="popular-goods-item__in-basket"></button>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li class="popular-goods-slider__item">
+											<div class="popular-goods-item">
+												<div class="popular-goods-item__img-wrapper">
+													<img src="assets/images/goods/topor.jpg" alt="" role="presentation" />
+												</div>
+												<div class="popular-goods-item__title-wrapper">
+													<p class="popular-goods-item__goods-title">Топор кемпинговый</p>
+													<p class="popular-goods-item__goods-code">Код: AGR-110H</p>
+												</div>
+												<div class="popular-goods-item__price-wrapper">
+													<p class="popular-goods-item__goods-price">1 990
+														<span>руб.</span>
+													</p>
+													<div class="popular-goods-item__wrapper-button d-xs-flex justify-content-xs-between">
+														<button data-goods-id="23" class="popular-goods-item__buy">
+															<span>В корзину</span>
+														</button>
+														<button class="popular-goods-item__in-basket"></button>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li class="popular-goods-slider__item">
+											<div class="popular-goods-item">
+												<div class="popular-goods-item__img-wrapper">
+													<img src="assets/images/goods/shakl.jpg" alt="" role="presentation" />
+												</div>
+												<div class="popular-goods-item__title-wrapper">
+													<p class="popular-goods-item__goods-title">Шакл &quot;Скоба&quot; 3.2T Runva</p>
+													<p class="popular-goods-item__goods-code">Код: AGR-110H</p>
+												</div>
+												<div class="popular-goods-item__price-wrapper">
+													<p class="popular-goods-item__goods-price">9 580
+														<span>руб.</span>
+													</p>
+													<div class="popular-goods-item__wrapper-button d-xs-flex justify-content-xs-between">
+														<button data-goods-id="77" class="popular-goods-item__buy">
+															<span>В корзину</span>
+														</button>
+														<button class="popular-goods-item__in-basket"></button>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li class="popular-goods-slider__item">
+											<div class="popular-goods-item">
+												<div class="popular-goods-item__img-wrapper">
+													<img src="assets/images/goods/shina.jpg" alt="" role="presentation" />
+												</div>
+												<div class="popular-goods-item__title-wrapper">
+													<p class="popular-goods-item__goods-title">Шина Goodyear LT275/65 R20 </p>
+													<p class="popular-goods-item__goods-code">Код: AGR-110H</p>
+												</div>
+												<div class="popular-goods-item__price-wrapper">
+													<p class="popular-goods-item__goods-price">11 200
+														<span>руб.</span>
+													</p>
+													<div class="popular-goods-item__wrapper-button d-xs-flex justify-content-xs-between">
+														<button data-goods-id="99" class="popular-goods-item__buy">
+															<span>В корзину</span>
+														</button>
+														<button class="popular-goods-item__in-basket"></button>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li class="popular-goods-slider__item">
+											<div class="popular-goods-item">
+												<div class="popular-goods-item__img-wrapper">
+													<img src="assets/images/goods/shina.jpg" alt="" role="presentation" />
+												</div>
+												<div class="popular-goods-item__title-wrapper">
+													<p class="popular-goods-item__goods-title">Шина Goodyear LT275/65 R20 </p>
+													<p class="popular-goods-item__goods-code">Код: AGR-110H</p>
+												</div>
+												<div class="popular-goods-item__price-wrapper">
+													<p class="popular-goods-item__goods-price">11 200
+														<span>руб.</span>
+													</p>
+													<div class="popular-goods-item__wrapper-button d-xs-flex justify-content-xs-between">
+														<button data-goods-id="789" class="popular-goods-item__buy">
+															<span>В корзину</span>
+														</button>
+														<button class="popular-goods-item__in-basket"></button>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li class="popular-goods-slider__item">
+											<div class="popular-goods-item">
+												<div class="popular-goods-item__img-wrapper">
+													<img src="assets/images/goods/termomofta.jpg" alt="" role="presentation" />
+												</div>
+												<div class="popular-goods-item__title-wrapper">
+													<p class="popular-goods-item__goods-title">Термомуфта Toyota</p>
+													<p class="popular-goods-item__goods-code"></p>
+												</div>
+												<div class="popular-goods-item__price-wrapper">
+													<p class="popular-goods-item__goods-price">12 390
+														<span>руб.</span>
+													</p>
+													<div class="popular-goods-item__wrapper-button d-xs-flex justify-content-xs-between">
+														<button data-goods-id="66" class="popular-goods-item__buy">
+															<span>В корзину</span>
+														</button>
+														<button class="popular-goods-item__in-basket"></button>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li class="popular-goods-slider__item">
+											<div class="popular-goods-item">
+												<div class="popular-goods-item__img-wrapper">
+													<img src="assets/images/goods/topor.jpg" alt="" role="presentation" />
+												</div>
+												<div class="popular-goods-item__title-wrapper">
+													<p class="popular-goods-item__goods-title">Топор кемпинговый</p>
+													<p class="popular-goods-item__goods-code">Код: AGR-110H</p>
+												</div>
+												<div class="popular-goods-item__price-wrapper">
+													<p class="popular-goods-item__goods-price">1 990
+														<span>руб.</span>
+													</p>
+													<div class="popular-goods-item__wrapper-button d-xs-flex justify-content-xs-between">
+														<button data-goods-id="41" class="popular-goods-item__buy">
+															<span>В корзину</span>
+														</button>
+														<button class="popular-goods-item__in-basket"></button>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li class="popular-goods-slider__item">
+											<div class="popular-goods-item">
+												<div class="popular-goods-item__img-wrapper">
+													<img src="assets/images/goods/shakl.jpg" alt="" role="presentation" />
+												</div>
+												<div class="popular-goods-item__title-wrapper">
+													<p class="popular-goods-item__goods-title">Шакл &quot;Скоба&quot; 3.2T Runva</p>
+													<p class="popular-goods-item__goods-code">Код: AGR-110H</p>
+												</div>
+												<div class="popular-goods-item__price-wrapper">
+													<p class="popular-goods-item__goods-price">9 580
+														<span>руб.</span>
+													</p>
+													<div class="popular-goods-item__wrapper-button d-xs-flex justify-content-xs-between">
+														<button data-goods-id="90" class="popular-goods-item__buy">
+															<span>В корзину</span>
+														</button>
+														<button class="popular-goods-item__in-basket"></button>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li class="popular-goods-slider__item">
+											<div class="popular-goods-item">
+												<div class="popular-goods-item__img-wrapper">
+													<img src="assets/images/goods/shina.jpg" alt="" role="presentation" />
+												</div>
+												<div class="popular-goods-item__title-wrapper">
+													<p class="popular-goods-item__goods-title">Шина Goodyear LT275/65 R20 </p>
+													<p class="popular-goods-item__goods-code">Код: AGR-110H</p>
+												</div>
+												<div class="popular-goods-item__price-wrapper">
+													<p class="popular-goods-item__goods-price">11 200
+														<span>руб.</span>
+													</p>
+													<div class="popular-goods-item__wrapper-button d-xs-flex justify-content-xs-between">
+														<button data-goods-id="244" class="popular-goods-item__buy">
+															<span>В корзину</span>
+														</button>
+														<button class="popular-goods-item__in-basket"></button>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li class="popular-goods-slider__item">
+											<div class="popular-goods-item">
+												<div class="popular-goods-item__img-wrapper">
+													<img src="assets/images/goods/termomofta.jpg" alt="" role="presentation" />
+												</div>
+												<div class="popular-goods-item__title-wrapper">
+													<p class="popular-goods-item__goods-title">Термомуфта Toyota</p>
+													<p class="popular-goods-item__goods-code">Код: AGR-110H</p>
+												</div>
+												<div class="popular-goods-item__price-wrapper">
+													<p class="popular-goods-item__goods-price">12 390
+														<span>руб.</span>
+													</p>
+													<div class="popular-goods-item__wrapper-button d-xs-flex justify-content-xs-between">
+														<button data-goods-id="222" class="popular-goods-item__buy">
+															<span>В корзину</span>
+														</button>
+														<button class="popular-goods-item__in-basket"></button>
+													</div>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="section mb-xl-4 mb-lg-3 mb-xs-2">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-9 col-md-11 col-xs-12">
+								<div class="about-company">
+									<h2 class="h2 h2_about-company">О компании</h2>
+									<p>«4х4» привык радовать своих клиентов, создавая уют и сервис для вас и делая любую покупку приятной. Стильный дизайн
+										магазина, низкие цены и приветливый персонал - всё это как нельзя лучше отражает политику работы нашего магазина.
+										Мы стремимся сократить время, которое вы тратите на поиск и покупку полюбившейся техники, создавая вокруг вас сервис.
+										Мы всегда стараемся учесть все пожелания и быть максимально близки к вам. Наш магазин дает понять своими низкими
+										ценами, что вы не переплачиваете — это и есть сервис</p>
+									<a href="/about-company.html" class="about-company__more">
+										<span>Подробнее о нас</span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="section section_footer-menu">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12">
+							<div class="footer-menu">
+								<div class="row wrapper-titles py-xl-4 py-lg-3 d-xs-none d-lg-flex">
+									<span class="col-lg-3">Хиты продаж</span>
+									<span class="col-lg-3">Как купить</span>
+									<span class="col-lg-3">Технический раздел</span>
+									<span class="col-lg-3">О магазине</span>
+								</div>
+								<div class="row d-xs-none d-lg-flex">
+									<ul class="footer-menu-list col-lg-3">
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Шины для внедорожников</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Резина SIMEX</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Колесные диски</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Лебедки COMEUP</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Дисковые тормоза</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Дополнительные свет</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Бампера</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Багажники</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Шины FEDERAL</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Шноркели SAFARI</a>
+										</li>
+									</ul>
+									<ul class="footer-menu-list col-lg-3">
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Как найти в каталоге</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Как оформить заказ</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Оплата заказа</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Доставка</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Гарантии</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Возврат товара</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Скидки и акции</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Оптовым покупателям</a>
+										</li>
+									</ul>
+									<ul class="footer-menu-list col-lg-3">
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Справочник</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Сертификаты</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Лебедки COMEUP</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Блокировки дифференциала</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Танковые фары</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Дисковые тормоза на УАЗ</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Аккумуляторные батареи</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Подвеска Tough Dog</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Шины и диски</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Хабы AVM</a>
+										</li>
+									</ul>
+									<ul class="footer-menu-list col-lg-3">
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Каталог товаров</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Контакты и адреса</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Оптовым покупателям</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Реквизиты компании</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Договор оферта</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Доставка</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Оплата</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Наши гарантии</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Возврат товара</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">В регионах</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Новости</a>
+										</li>
+									</ul>
+								</div>
+								<div class="row d-lg-none">
+									<div class="col-xs-12">
+										<div class="select-tabs js-select-tabs">
+											<div class="select-tabs__head js-select-tabs-head"></div>
+											<div class="select-tabs__dropdown js-select-tabs-dropdown">
+												<span data-tabs="1" class="select-tabs__text js-select-tabs-text">Хиты продаж</span>
+												<span data-tabs="2" class="select-tabs__text js-select-tabs-text">Как купить</span>
+												<span data-tabs="3" class="select-tabs__text js-select-tabs-text">Технический раздел</span>
+												<span data-tabs="4" class="select-tabs__text js-select-tabs-text">О магазине</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row d-lg-none">
+									<ul data-tabs="1" class="footer-menu-list col-xs-12 js-tabs-content">
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Шины для внедорожников</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Резина SIMEX</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Колесные диски</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Лебедки COMEUP</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Дисковые тормоза</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Дополнительные свет</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Бампера</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Багажники</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Шины FEDERAL</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Шноркели SAFARI</a>
+										</li>
+									</ul>
+									<ul data-tabs="2" class="footer-menu-list col-xs-12 js-tabs-content">
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Как найти в каталоге</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Как оформить заказ</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Оплата заказа</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Доставка</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Гарантии</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Возврат товара</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Скидки и акции</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Оптовым покупателям</a>
+										</li>
+									</ul>
+									<ul data-tabs="3" class="footer-menu-list col-xs-12 js-tabs-content">
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Справочник</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Сертификаты</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Лебедки COMEUP</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Блокировки дифференциала</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Танковые фары</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Дисковые тормоза на УАЗ</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Аккумуляторные батареи</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Подвеска Tough Dog</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Шины и диски</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Хабы AVM</a>
+										</li>
+									</ul>
+									<ul data-tabs="4" class="footer-menu-list col-xs-12 js-tabs-content">
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Каталог товаров</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Контакты и адреса</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Оптовым покупателям</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Реквизиты компании</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Договор оферта</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Доставка</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Оплата</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Наши гарантии</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Возврат товара</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">В регионах</a>
+										</li>
+										<li class="footer-menu-list__item">
+											<a href="javascript:;">Новости</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="section section_footer-info">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12">
+							<div class="footer-info d-xs-flex justify-content-xs-between align-items-xs-end row">
+								<div class="footer-info__item footer-info__item_icon footer-info__item_pin col-xs-12 col-sm-6 col-lg-auto">
+									<p>Москва, ул. 4-я
+										<br />Магистральная, д. 3</p>
+								</div>
+								<div class="footer-info__item footer-info__item_icon footer-info__item_phone col-xs-12 col-sm-6 col-lg-auto">
+									<a href="tel:+74957275300">+7 495
+										<span>727-53-00</span>
+									</a>
+									<a href="tel:+74957275312">+7 495
+										<span>727-53-12</span>
+									</a>
+								</div>
+								<div class="footer-info__item footer-info__item_icon footer-info__item_letter col-xs-12 col-md-5 col-lg-auto">
+									<p>Электронная почта:
+										<a href="mail:shop@4x4sport.ru">shop@4x4sport.ru</a>
+									</p>
+								</div>
+								<div class="footer-info__item footer-info__item_confidens col-xs-12 col-md-7 col-lg-auto">
+									<a href="javascript:;">Политика конфиденциальности ООО "4Х4СПОРТ"</a>
+									<br/>
+									<a href="javascript:;">Согласие пользователя на обработку персональных данных</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="section section_footer-copyright">
+				<div class="container">
+					<div class="row">
+						<div class="b col-xs-12">
+							<div class="footer-copyright d-xs-flex align-items-xs-center py-xl-2 row">
+								<div class="footer-copyright__item col-xs-12 col-md-auto">
+									<p>&copy; ООО «rk4x4shop.ru», 2006-2017</p>
+								</div>
+								<div class="footer-copyright__item col-xs-12 col-md-auto">
+									<p>Москва, ул. 4-я Магистральная, д. 3</p>
+									<p>Телефоны:
+										<a href="tel:+74957275300">+7 495 727-53-00</a>,
+										<a href="tel:+74957275312">+7 495 727-53-12</a>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="./assets/scripts/app.min.js"></script>
+	</body>
+
+</html>
